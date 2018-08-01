@@ -14,7 +14,7 @@ Concat css and JS files to a single file, uglify them and move them to dist fold
 
 ## Authors
 
-* **Jean Silva** - *Initial work* - [EmberVOid](https://github.com/EmberVoid)
+* **Jean Silva** - *Initial work* - [EmberVoid](https://github.com/EmberVoid)
 
 
 ## License
