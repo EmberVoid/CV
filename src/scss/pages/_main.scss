@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw
+}
+
+.parallax:nth-of-type(1) {
+    background-image: url('../img/parallax.jpg');
+}
+
+.parallax:nth-of-type(4) {
+    background-image: url('../img/parallax2.jpg');
+    height: 50vh;
+}
+
+.card-img-bottom-dash {
+    color: $white;
+    height: 20rem;
+    background: url(../img/project1.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.card-img-bottom-tumblr {
+    color: $white;
+    height: 20rem;
+    background: url(../img/project2.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.absolute-Center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.brand {
+    font-family: 'Cutive', serif;
+    font-size: xx-large;
+    padding-right: 1em;
+}
+
+.subbrand {
+    font-family: 'Cutive', serif;
+    font-size: small;
+}
+
+.titles {
+    font-family: 'Scope One', serif;
+}
+
+.card {
+    border: none;
+}
+
+.card-text{
+    text-align: justify;
+}
+
+section {
+    padding: 3em 0 3em 0;
+}
+
+.img-fluid {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.techLogos {
+    margin: 2em;
+}
+
+/*Footer*/
+
+footer {
+    height: 15vh;
+    width: 100vw;
+    background-color: $footer;
+}
+
+
+footer .absolute-Center{
+    height: 15vh;
+    width: 100vw;
+}
+
+
+footer a {
+    color: #333;
+}
+
+footer .social:hover {
+    transform: scale(1.1);
+}
+
+footer .social {
+    transform: scale(0.8);
+    /* Browser Variations: */
+    transition-duration: 0.5s;
+}
+
+/*Multicoloured Hover Variations*/
+
+footer #social-fb:hover {
+    color: #3B5998;
+}
+
+footer #social-tw:hover {
+    color: #4099FF;
+}
+
+footer #social-gp:hover {
+    color: #d34836;
+}
+
+footer #social-em:hover {
+    color: #f39c12;
+}
