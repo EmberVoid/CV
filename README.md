@@ -8,7 +8,7 @@ Basically we need three commands to run the project:
 ```
 npm install
 ```
-To install al dependecies
+To install al dependencies
 ```
 gulp dev
 ```
