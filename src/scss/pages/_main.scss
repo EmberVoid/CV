@@ -18,23 +18,30 @@ body {
     background-image: url('../img/parallax.jpg');
 }
 
-.parallax:nth-of-type(4) {
+.parallax:nth-of-type(5) {
     background-image: url('../img/parallax2.jpg');
     height: 50vh;
 }
 
-.card-img-bottom-dash {
+.card-img-bottom-face {
     color: $white;
     height: 20rem;
     background: url(../img/project1.jpg) center no-repeat;
     background-size: cover;
 }
 
-.card-img-bottom-tumblr {
+.card-img-bottom-dash {
     color: $white;
     height: 20rem;
-    background: url(../img/project2.jpg) center no-repeat;
-    background-size: cover;
+    background: url(../img/project2.png) center no-repeat;
+    background-size: contain;
+}
+
+.card-img-bottom-drupal {
+    color: $white;
+    height: 20rem;
+    background: url(../img/project3.jpg) center no-repeat;
+    background-size: contain;
 }
 
 .absolute-Center {
